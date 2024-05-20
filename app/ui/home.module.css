@@ -6,3 +6,11 @@
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
 }
+
+.heroImg_mobile {
+  display: none;
+
+  @media screen and (max-width: 767.9px) {
+    display: block;
+  }
+}
