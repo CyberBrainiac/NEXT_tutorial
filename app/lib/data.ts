@@ -9,6 +9,7 @@ import {
   Revenue,
 } from './definitions';
 import { formatCurrency } from './utils';
+import { log } from 'console';
 
 export async function fetchRevenue() {
   // Add noStore() here to prevent the response from being cached.
